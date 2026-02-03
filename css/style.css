@@ -750,3 +750,53 @@ input.form-control {
 .gamelist-widget .list-game {
   margin-bottom: 20px;
 }
+/* ===== Action buttons ===== */
+.b-action2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-capsule {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.btn-like {
+  background: #ff4d6d;
+  color: #fff;
+}
+
+.btn-download {
+  background: #20c997;
+  color: #fff;
+}
+
+.btn-like:hover,
+.btn-download:hover {
+  opacity: 0.85;
+}
+
+.btn-like.liked {
+  background: #c9184a;
+}
+
+/* ===== Logo text style ===== */
+.logo-text {
+  font-family: 'Norse', serif;
+  font-weight: 900;
+  color: #f5c400;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000;
+}
+.logo-text {
+  font-family: 'Norse', serif !important;
+  font-weight: 900;
+  color: #f5c400 !important;
+}
+.game-title {
+  padding-left: 15px;
+}
